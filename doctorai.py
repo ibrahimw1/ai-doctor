@@ -13,23 +13,23 @@ from models_from_scratch import Logistic_Regression, SVM_classifier, Linear_Regr
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('/Users/ibrahimwani/Desktop/DoctorAI/saved_models/diabetes_model.sav', 'rb'))
-diabetes_scaler = pickle.load(open('/Users/ibrahimwani/Desktop/DoctorAI/saved_models/diabetes_scaler.sav', 'rb'))
+diabetes_model = pickle.load(open('saved_models/diabetes_model.sav', 'rb'))
+diabetes_scaler = pickle.load(open('saved_models/diabetes_scaler.sav', 'rb'))
 
-diabetes_nn_model = pickle.load(open('/Users/ibrahimwani/Desktop/DoctorAI/saved_models/diabetes_nn_model.sav', 'rb'))
-diabetes_nn_scaler = pickle.load(open('/Users/ibrahimwani/Desktop/DoctorAI/saved_models/diabetes_nn_scaler.sav', 'rb'))
+diabetes_nn_model = pickle.load(open('saved_models/diabetes_nn_model.sav', 'rb'))
+diabetes_nn_scaler = pickle.load(open('saved_models/diabetes_nn_scaler.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('/Users/ibrahimwani/Desktop/DoctorAI/saved_models/heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('saved_models/heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open('/Users/ibrahimwani/Desktop/DoctorAI/saved_models/parkinsons_model.sav', 'rb'))
-parkinsons_scaler = pickle.load(open('/Users/ibrahimwani/Desktop/DoctorAI/saved_models/parkinsons_scaler.sav', 'rb'))
+parkinsons_model = pickle.load(open('saved_models/parkinsons_model.sav', 'rb'))
+parkinsons_scaler = pickle.load(open('saved_models/parkinsons_scaler.sav', 'rb'))
 
-medical_insurance_model = pickle.load(open('/Users/ibrahimwani/Desktop/DoctorAI/saved_models/medical_insurance_model.sav', 'rb'))
+medical_insurance_model = pickle.load(open('saved_models/medical_insurance_model.sav', 'rb'))
 
-breast_cancer_model = pickle.load(open('/Users/ibrahimwani/Desktop/DoctorAI/saved_models/breast_cancer_model.sav', 'rb'))
-breast_cancer_scaler = pickle.load(open('/Users/ibrahimwani/Desktop/DoctorAI/saved_models/breast_cancer_scaler.sav', 'rb'))
+breast_cancer_model = pickle.load(open('saved_models/breast_cancer_model.sav', 'rb'))
+breast_cancer_scaler = pickle.load(open('saved_models/breast_cancer_scaler.sav', 'rb'))
 
-face_mask_model = pickle.load(open('/Users/ibrahimwani/Desktop/DoctorAI/saved_models/face_mask_model.sav', 'rb'))
+face_mask_model = pickle.load(open('saved_models/face_mask_model.sav', 'rb'))
 
 
 # sidebar for navigate
